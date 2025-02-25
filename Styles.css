@@ -129,9 +129,9 @@
 
     .language {
         display: flex;
-        flex-wrap: wrap;  /* Đảm bảo rằng các icon không bị tràn ra ngoài màn hình */
-        justify-content: space-between;  /* Căn giữa các phần tử bên trong */
-        gap: 100px;  /* Điều chỉnh khoảng cách giữa các icon */
+        flex-wrap: wrap;  
+        justify-content: space-between;  
+        gap: 100px;  
     }
 
     .work {
@@ -165,4 +165,3 @@
         gap: 15px;
     }
 }
-
