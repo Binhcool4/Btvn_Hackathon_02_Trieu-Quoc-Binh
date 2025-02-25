@@ -1,0 +1,168 @@
+.navbar-custom {
+    background-color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.icon-buttons i {
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.icon-buttons i:hover {
+    color: #ffcc00;
+}
+
+.collapse {
+    flex-grow: 0;
+}
+
+.navbar>.container {
+    justify-content: space-between;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.child-header {
+    width: 60%;
+}
+
+.avater {
+    width: 40%;
+}
+
+.skill {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 50px;  
+}
+
+.skill p {
+    margin: 10px 0;  
+}
+
+.language {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 100px;  
+}
+
+.work {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 38%;
+}
+
+.work-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.work1 {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.work1-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.footer a {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+    
+    .child-header {
+        margin-left: 110px;
+        width: 100%;
+        order: 2;
+    }
+    
+    .avater {
+        width: 40%;
+        order: 1;
+    }
+
+    .skill {
+        text-align: center;
+        padding: 10px 0;
+        margin-bottom: 50px;  
+    }
+    
+
+    .language {
+        display: flex;
+        flex-wrap: wrap;  /* Đảm bảo rằng các icon không bị tràn ra ngoài màn hình */
+        justify-content: space-between;  /* Căn giữa các phần tử bên trong */
+        gap: 100px;  /* Điều chỉnh khoảng cách giữa các icon */
+    }
+
+    .work {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-bottom: 30px;
+        flex-grow: 1;
+    }
+    
+    .box {
+        width: 50%;
+    }
+    
+    .work-icon {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .work1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+    
+    .work1-icon {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
